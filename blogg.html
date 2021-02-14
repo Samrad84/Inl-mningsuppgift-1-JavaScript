@@ -21,13 +21,21 @@
         </div>
     </header>
     <main>
-        <span id="result"></span>
-       <script>
-
-            document.getElementById("result").innerHTML = localStorage.getItem("textvalue");
-
-        </script>
-
+        <div class="flex">
+            <div id="container1" class="container1">
+                <div class="card">
+                    <div class="content">
+                        <span id="result"></span>
+                        <script>
+    
+                            document.getElementById("result").innerHTML = localStorage.getItem("textvalue");
+    
+                        </script>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
 
@@ -35,5 +43,3 @@
 </body>
 
 </html>
-
-
